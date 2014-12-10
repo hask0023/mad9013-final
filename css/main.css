@@ -17,6 +17,17 @@ body {
     background-color: #ffeef1;
 }
 
+.wrapper {
+    max-width: 960px;
+    min-height: 800px;
+    margin: 0 auto;
+    background-color: white;
+-webkit-box-shadow: -1px -4px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -4px 18px 0px rgba(0,0,0,0.75);
+box-shadow: -1px -4px 18px 0px rgba(0,0,0,0.75);
+  
+}
+
 .page-header {
     background-color: #ed1b2e;        
 }
@@ -32,17 +43,10 @@ body {
     font-family: 'Arvo', 'Times New Roman', serif;
     
 }
-.wrapper {
-    max-width: 960px;
-    min-height: 800px;
-    margin: 0 auto;
-    background-color: white;
--webkit-box-shadow: -1px -4px 18px 0px rgba(0,0,0,0.75);
--moz-box-shadow: -1px -4px 18px 0px rgba(0,0,0,0.75);
-box-shadow: -1px -4px 18px 0px rgba(0,0,0,0.75);
- 
 
-    
+
+.page-header {
+    padding-bottom: 0 !important;
 }
 
 .container {
@@ -67,6 +71,7 @@ h1, h2 {
 
 h1 {
     color: white;
+    background-color: #ed1b2e;
     
 }
 
@@ -107,7 +112,7 @@ ul {
 }
 
 img{
-    overflow: hidden
+    overflow: hidden;
 }
 
 .foot {
@@ -123,3 +128,7 @@ p {
     width: 100%;
 }
     
+
+a{
+  font-family: 'Arvo', 'Times New Roman', serif;
+}
